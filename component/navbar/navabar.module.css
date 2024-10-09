@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  clear: both;
+}
+.logo_container {
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin-top: 1rem;
+}
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@media (min-width: 791px) {
+  .logo_container {
+    padding-right: 2rem;
+  }
+}
