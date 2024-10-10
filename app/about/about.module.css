@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  gap: 6rem;
+}
+
+.aboutMessage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.aboutImage {
+  flex: 1;
+  position: relative;
+  object-fit: contain;
+}
+.Image {
+  border-radius: 0.8rem;
+}
+.title {
+  font-size: 3rem;
+  background-image: linear-gradient(to right bottom, #ddb66c, #5ccf90);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+  margin-bottom: 1rem;
+}
+.companyMessage {
+  font-size: 3rem;
+  background-image: linear-gradient(to right bottom, #4bd805fc, #aad805);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-bottom: -2rem;
+}
+.box_tag {
+  font-size: 3rem;
+}
+
+.box_paragraph {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(to right bottom, #ddb66c, #5ccf90);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
