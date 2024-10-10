@@ -9,9 +9,9 @@
   transform: scale(1);
 }
 .active {
-  background: #7c926746;
+  background: #fff;
   z-index: 10;
-  color: rgba(48, 248, 8, 0.548);
+  color: black;
   box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 0.015);
 }
 .container {

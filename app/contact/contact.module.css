@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  margin: 3rem 3rem 2rem 3rem;
+  gap: 13rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex: 1;
+  position: relative;
+  object-fit: contain;
+}
+
+.formContainer {
+  display: flex;
+  flex: 1;
+}
+
+.contactForm {
+  display: flex;
+  outline: none;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+  width: 90%;
+  height: 80vh;
+}
+
+.input {
+  font-size: 2rem;
+  padding: 1.2rem;
+  outline: none;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.45rem;
+  background-color: #1b2733;
+  color: #fff;
+}
+.textArea {
+  border-radius: 0.5rem;
+}
+.btn {
+  background-color: #137ae0;
+  cursor: pointer;
+  transition: all 0.075s;
+}
+
+.btn:hover {
+  background-color: #539be4;
+  transform: scale(1);
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+.input:hover,
+.input:active {
+  outline: 2px solid #fff;
+}
+
+.input:hover:last-child {
+  outline: none;
+}
